@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+.form-group label {
+    color: grey;
+    /*select all labels in elements which has class form-group*/
+}
+
+.form-group input {
+    font-weight: 500;
+}
+
+.form-group input::placeholder {
+    color: #c0bdbd;
+    font-weight: 300;
+}
+
+/*invalid je ime klase, na ovaj nacin ogranicavamo class selector samo na input elemente*/
+input.invalid {
+    border-color: red;
+}
+
+.alert {
+    padding: 4px !important;
+}
